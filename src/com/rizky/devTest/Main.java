@@ -9,11 +9,11 @@ public class Main {
 		
 		for(int row = 1; row <= size; row++) {
 			for(int numberOfSpace = size - row; numberOfSpace > 0; numberOfSpace--) {
-				System.out.print(' ');
+				System.out.print("  ");
 			}
 			
 			for(int numberOfSymbol = row; numberOfSymbol > 0; numberOfSymbol--) {
-				System.out.print('#');
+				System.out.print("# ");
 			}
 			
 			System.out.println();
